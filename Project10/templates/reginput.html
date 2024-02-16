@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="lightgreen">
+<center>
+  <h1>
+    <form action="./register" method="post">
+      {% csrf_token %}
+      <table bgcolor="peach" border="2">
+        <tr><td>Enter First Name</td><td><input type="text" name="t1"></td></tr>
+          <tr><td>Enter Last Name</td><td><input type="text" name="t2"></td></tr>
+          <tr><td>Enter UserName</td><td><input type="text" name="t3"></td></tr>
+          <tr><td>Enter Password</td><td><input type="password" name="t4"></td></tr>
+          <tr><td>Enter Cpassword</td><td><input type="password" name="t5"></td></tr>
+          <tr><td>Enter Mobile Number</td><td><input type="text" name="t6"></td></tr>
+          <tr><td>Enter Email Id</td><td><input type="text" name="t7"></td></tr>
+        <tr><td colspan="2" align="center"><input type="submit" value="register"></td></tr>
+      </table>
+    </form>
+  </h1>
+</center>
+
+</body>
+</html>
